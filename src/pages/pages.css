@@ -1,0 +1,46 @@
+.outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.numberRow {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.noMargin {
+    margin: 0 !important;
+}
+
+.standardText {
+    color: hsl(216, 12%, 54%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.headerText {
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 1.5px;
+    width: 100%;
+}
+
+.centreAligned {
+    text-align: center !important;
+}
+
+.mickeyConfused {
+    filter: sepia(0.5) grayscale(0.8);
+    width: 200px;
+}

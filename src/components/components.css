@@ -1,0 +1,99 @@
+.emptyBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+    background:  linear-gradient(0deg, #191E27, #21262D);
+    flex-direction: column;
+    padding: 2% 2.5%;
+    box-sizing: border-box;
+}
+
+.circularButton {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    transition: all 0.2s linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 4px;
+    box-sizing: border-box;
+}
+
+.scoreElement {
+    height: 28px;
+    border-radius: 14px;
+
+    background-color: #282E37;
+    color: hsl(25, 97%, 53%);
+    width: max-content;
+    padding: 0% 10%;
+    padding-top: 2px;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    word-spacing: 2px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.isSelected {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.isntEnabled {
+    cursor: not-allowed !important;
+}
+
+.nonSelected {
+    background-color: #282E37;
+    color: hsl(216, 12%, 54%);
+}
+
+.ovalButton {
+    border-radius: 20px;
+    min-height: 40px;
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    transition: all 0.2s linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 4px;
+}
+
+.ovalButton:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+.circularButtonHover {
+    cursor: pointer;
+}
+
+.circularButtonHover:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+@media (max-width: 1000px) {
+    .emptyBlock {
+        width: 350px;
+        padding: 4% 5%;
+    }
+}
